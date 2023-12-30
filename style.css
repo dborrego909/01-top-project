@@ -8,13 +8,14 @@
 }
 
 button {
-    border
+
 }
 
 .right-links {
     display: flex;
     gap: 10px;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
     color: #e5e7eb;
 }
 
@@ -55,6 +56,7 @@ button {
     padding: 5px;
     border: none;
     font-size: 18px;
+    font-family: 'roboto', sans-serif;
 }
 
 .motto {
@@ -68,6 +70,7 @@ h4 {
     font-size: 28px;
     padding: 12px 0px;
     margin: 12px 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .meals {
@@ -78,62 +81,85 @@ h4 {
 }
 
 body {
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
 .customer {
     background: #e5e7eb;
+    margin: 0;
 }
 
 .quote {
     justify-content: center;
     flex-grow: 1;
     color: #48494b;
-    font-size: 36px;
+    font-size: 24px;
     font-style: italic;
-    padding: 1em 8rem;
-    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    padding: 1em 300px;
+    margin: 0px;
 }
 
 .review {
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     text-align: end;
-    padding: 0px 8rem;
+    padding: 0px 300px;
+    margin: 0px;
     text-decoration: none;
     justify-self: start;
 }
 
 .footer {
-    background-color: #3882f6;
     display: flex;
     justify-content: center;
-    color: white;
     align-items: center;
-    margin: 22px 100px;
-    flex-basis: 50%;
+    gap:32px;
+    padding:36px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    margin:100px auto;
+    color: #f9faf8;
+    flex-flow: row wrap;
+    font-weight: 100;
 }
+
+.footer button {
+    align-self: center;
+    border: 2px solid #f9faf8;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    /* border: 2px solid #f9faf8; */
+}
+
+/* * {border: solid red 2px;} */
 
 .end {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
+.end p,h5 {
+    margin: 0px;
 
+}
 
-.footer > button {
-
-    align-content: center;
-    height: 20px;
-    justify-content: center;
-    align-self: center;
-    border: white 2px;
-    
+h5 {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
 }
 
 h3 {
     font-weight: 100;
 
+}
+
+.end p {
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
 }
